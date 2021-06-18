@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+
+body {
+  margin: 0; 
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; 
+  height: 100%
+}
+
+h1 {
+  font-size: 2.4em;
+  color: #1f214b;
+  margin-left: 1.8rem;
+  font-weight: 300;
+} 
+
+h2 {
+  font-size: 1.7em;
+  color: #1f214b;
+  margin-left: 2rem;
+  font-weight: 300;
+} 
+
+p  {
+  color: #373a3c;
+  margin-left: 2.2rem;  
+}
+
+.topnav {
+  height: 50px;
+  background-image: url(https://pan-learning.org/moodle/customfiles/images/PaNOSC-ribbons.png), linear-gradient(to right, #1f0f34 0%, #0f2f5f 100%);
+  background-position: 84px center, left center;
+  background-repeat: no-repeat;
+  background-size: 122px 30px, 100%;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f7f7f9;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.55em;
+  position: relative;
+  left: 208px;
+}
+
+.headercard {
+  height: 150px;
+  margin: 16px;
+  box-sizing: border-box;
+  width: calc(100% - 32px);
+  background-image: url(https://pan-learning.org/moodle/customfiles/images/testwallpaper8.png), linear-gradient(to left, #0f2f5f 0%, #f4f4f4 100%);
+  background-size: cover, cover;
+  background-position: 100% 50%, 100%;
+}
+
+.headercard .title {
+  top: 35%;
+  position: relative;
+}
+
+.myDiv {
+  margin: 16px;
+  max-width: 1200px;
+}
+
+.footer {
+  height: 100px;
+  position: fixed;
+  overflow: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: url(https://pan-learning.org/moodle/customfiles/images/PaNOSC_ExPaNDS_footer2.png), linear-gradient(to right, #1f0f34 0%, #0f2f5f 100%);
+  background-position: 5%, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto 90%, auto auto;
+} 
+  
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="https://pan-learning.org/">PaN-learning</a>
+</div>
+
+<div class="headercard">
+  <div class="title">
+    <h1>About</h1>
+  </div>
+</div>
+
+<div class="myDiv">
+  <h2>PaN-learning</h2>
+  <p>pan-learning.org and associated pages are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+  <p>Permissions beyond the scope of this license may be available.</p>
+
+  <h2>The Team</h2>
+  <p>Project leader: Thomas Holm Rod, DRAM group leader, ESS DMSC, Copenhagen</p>
+  <p>E-learning lead: Linda Udby, Associate Professor, Niels Bohr Institute, University of Copenhagen</p>
+  <p>Technical platform development leader: Peter Willendrup, Senior Research Engineer, Technical University of Denmark</p>
+  <p>Course content and didactical developers: Viktor Holm, Research Assistant, Niels Bohr Institute, University of Copenhagen & Linda Udby, Associate Professor, Niels Bohr Institute, University of Copenhagen & Jesper Bruun, Assistant Professor, Department of Science Education, University of Copenhagen</p>
+  
+  <h2>Contributors</h2>
+  <p>University of Copenhagen: Kim Lefmann, Linda Udby, Pia Jensen Ray, Julie Hougaard, Lise Arleth, Kell Mortensen, Bente Lebech, Jesper Bruun </p>
+  <p>Institut Laue-Langevin, ILL: Andrew Wildes, Alain Filhol, Helmut Schober </p>
+  <p>Technische Universität München: Jörg Pulz, Peter Link, Jürgen Neuhaus </p>
+  <p>European Spallation Source, ESS: Markus Strobl </p>
+  
+  <h2>Funding</h2>
+  <p>The current funding for the project is provided by the European Union’s Horizon 2020 research and innovation programme under under grant agreement No. 823852. </p>
+  <p>Earlier funding for the project were provided by the European Union’s 7th Framework Programme for research, technological development and demonstration under the NMI3-II Grant number 283883 and from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 654000. </p>
+  <p>We are also grateful for the financial support recieved from the University of Copenhagen via the “Good Education” and “Education 2016” programmes and from Interreg IV via the ÖMIC programme. </p>
+</div>
+
+
+<div class="footer">
+  <p> </p>
+</div>
+
+</body>
+</html>
