@@ -101,19 +101,13 @@ p  {
   <h2>PaN-learning</h2>
   <p>pan-learning.org and associated pages are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
   <p>Permissions beyond the scope of this license may be available.</p>
+  
+  <h2>History</h2>
+  <p>PaN-learning evolved out of a previous e-learning platform known as e-neutrons.org, which was developed at University of Copenhagen by Kim Lefman, Linda Udby and Peter Willendrup</p>
+  <p>It was then picked up by the PaNOSC and ExPaNDS EU funded projects to become PaN-learning, which opened it up to include photon as well as neutron science.</p>
+  <p>The site is now hosted by the European Spallation Source in Sweden and Denmark.</p>
 
-  <h2>The Team</h2>
-  <p>Project leader: Thomas Holm Rod, DRAM group leader, ESS DMSC, Copenhagen</p>
-  <p>E-learning lead: Linda Udby, Associate Professor, Niels Bohr Institute, University of Copenhagen</p>
-  <p>Technical platform development leader: Peter Willendrup, Senior Research Engineer, Technical University of Denmark</p>
-  <p>Course content and didactical developers: Viktor Holm, Research Assistant, Niels Bohr Institute, University of Copenhagen & Linda Udby, Associate Professor, Niels Bohr Institute, University of Copenhagen & Jesper Bruun, Assistant Professor, Department of Science Education, University of Copenhagen</p>
-  
-  <h2>Contributors</h2>
-  <p>University of Copenhagen: Kim Lefmann, Linda Udby, Pia Jensen Ray, Julie Hougaard, Lise Arleth, Kell Mortensen, Bente Lebech, Jesper Bruun </p>
-  <p>Institut Laue-Langevin, ILL: Andrew Wildes, Alain Filhol, Helmut Schober </p>
-  <p>Technische Universität München: Jörg Pulz, Peter Link, Jürgen Neuhaus </p>
-  <p>European Spallation Source, ESS: Markus Strobl </p>
-  
+
   <h2>Funding</h2>
   <p>The current funding for the project is provided by the European Union’s Horizon 2020 research and innovation programme under under grant agreement No. 823852. </p>
   <p>Earlier funding for the project were provided by the European Union’s 7th Framework Programme for research, technological development and demonstration under the NMI3-II Grant number 283883 and from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 654000. </p>
