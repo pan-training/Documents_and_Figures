@@ -7,7 +7,16 @@
 body {
   margin: 0; 
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; 
-  height: 100%
+  height: 90%
+}
+
+body a{
+  margin: 0; 
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; 
+  height: 90%;
+  color: #0f2f5f;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 h1 {
@@ -66,6 +75,7 @@ p  {
 }
 
 .myDiv {
+  text-align: justify;
   margin: 16px;
   max-width: 1200px;
 }
@@ -99,26 +109,20 @@ p  {
 
 <div class="myDiv">
   <h2>PaN-learning</h2>
-  <p>pan-learning.org and associated pages are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
-  <p>Permissions beyond the scope of this license may be available.</p>
-
-  <h2>The Team</h2>
-  <p>Project leader: Thomas Holm Rod, DRAM group leader, ESS DMSC, Copenhagen</p>
-  <p>E-learning lead: Linda Udby, Associate Professor, Niels Bohr Institute, University of Copenhagen</p>
-  <p>Technical platform development leader: Peter Willendrup, Senior Research Engineer, Technical University of Denmark</p>
-  <p>Course content and didactical developers: Viktor Holm, Research Assistant, Niels Bohr Institute, University of Copenhagen & Linda Udby, Associate Professor, Niels Bohr Institute, University of Copenhagen & Jesper Bruun, Assistant Professor, Department of Science Education, University of Copenhagen</p>
+  <p><a href="https://pan-learning.org/">Pan-learning.org</a> and associated pages are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Permissions beyond the scope of this license may be available.</p>
   
-  <h2>Contributors</h2>
-  <p>University of Copenhagen: Kim Lefmann, Linda Udby, Pia Jensen Ray, Julie Hougaard, Lise Arleth, Kell Mortensen, Bente Lebech, Jesper Bruun </p>
-  <p>Institut Laue-Langevin, ILL: Andrew Wildes, Alain Filhol, Helmut Schober </p>
-  <p>Technische Universität München: Jörg Pulz, Peter Link, Jürgen Neuhaus </p>
-  <p>European Spallation Source, ESS: Markus Strobl </p>
-  
+  <p> The purpose of PaN-learning is to provide open source neutron, photon and muon science training to European scientists and students. 
   <h2>Funding</h2>
-  <p>The current funding for the project is provided by the European Union’s Horizon 2020 research and innovation programme under under grant agreement No. 823852. </p>
-  <p>Earlier funding for the project were provided by the European Union’s 7th Framework Programme for research, technological development and demonstration under the NMI3-II Grant number 283883 and from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 654000. </p>
+  <p>The current funding for the project is provided by the European Union’s Horizon 2020 research and innovation programme under under grant agreement <a href=" https://www.panosc.eu/" >No. 823852</a>. </p>
+  <p>Earlier funding for the project were provided by the European Union’s 7th Framework Programme for research, technological development and demonstration under the <a href="https://www.nmi3.eu/">NMI3-II Grant number 283883</a> and from the European Union’s SINE 2020 research and innovation programme under grant agreement <a href="https://www.sine2020.eu/">No. 654000</a>. </p>
   <p>We are also grateful for the financial support recieved from the University of Copenhagen via the “Good Education” and “Education 2016” programmes and from Interreg IV via the ÖMIC programme. </p>
+
+  <h2> History </h2>
+  <p>PaN-learning started out as e-neutrons.org. It was developed primarily by Copenhagen University as a means to teach their own students about neutrons science. The first courses, namely <a href="https://pan-learning.org/moodle/course/view.php?id=5">Introduction to neutron scattering</a> and <a href="https://pan-learning.org/moodle/course/view.php?id=4">Advanced topics in neutron scattering</a>, were developed by <a href="https://nbi.ku.dk/english/staff/?pure=en/persons/78483">Associate Professor Linda Udby</a> and were based on both her own and <a href="https://nbi.ku.dk/english/staff/?pure=en/persons/30116">Professor Kim Lefman's</a> lecture courses. Managaing the moodle platform and McStas integration was championed by <a href="https://orbit.dtu.dk/en/persons/peter-kj%C3%A6r-willendrup">Peter Willendrup,</a> Senior Research Engineer at Technical University of Denmark. Creation of many of the moodle elements within the courses was carried out by <a href="https://www.ind.ku.dk/english/staff-auto-list/?pure=en/persons/348492">Viktor Holm</a>, a research assistant at Copenhagen University.</p> 
+  
+  <p>The project was then taken over by the EU-funded Photon and Neutron Open Science Cloud (<a href=" https://www.panosc.eu/" >PaNOSC</a>) as part of work package 8. The moodle platform and subsequent Jupyter integration is run on servers at the European Spallation Source (ESS) in Denmark and Sweden. The project is now managed by work package leader, <a href="https://europeanspallationsource.se/profile/thomas-holm-rod">Thomas Holm Rod</a>, Head of the Data Management and Software Center of the ESS.</p> 
 </div>
+
 
 
 <div class="footer">
