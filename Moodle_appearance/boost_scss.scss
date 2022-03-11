@@ -1,0 +1,331 @@
+// Import everything.
+@import "moodle";
+
+.box.py-3.d-flex.justify-content-center {
+      justify-content: left !important;
+}
+
+.pantraining {
+   //background-image: linear-gradient( 125deg, $purple-light 30%, $purple);
+   background: #f7f7f7;
+   color: $purple;
+   .dropdown-toggle {
+        color: $purple !important;
+   }
+   .mt-3 {
+      margin-top: 0px !important;
+   }
+  a {
+      color: $purple;
+      text-weight: bold;
+  }
+}
+
+#region-main-settings-menu.has-blocks, #region-main.has-blocks {
+    display: inline-block;
+    width: 79%;
+}
+
+#region-main-box.col-12 section.d-print-none {
+  width: 20%;
+}
+
+#region-main {border: none;}
+.card {border: none}
+
+// Since moodle 3.11 extra space was added in between every course activity increasing the amount of scrolling - here it is removed. 
+.section li.activity.hasinfo {
+    border-bottom: 1px solid #f4f4f4;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+#nav-drawer [data-key="privatefiles"] {
+  display: none;
+}
+
+#nav-drawer [data-key="mycourses"] {
+  display: none;
+}
+
+#nav-drawer [data-key="courseindexpage"] {
+  display: none; //this removes the 'more...'
+}
+
+#page-site-index .enrolmenticons {visibility: hidden;}
+#page-my-index {background-color: white;}
+
+// The edit button within H5P content doesn't behave like all other .btn-primary affected buttons. 
+.mb-2 {
+    .btn-primary {
+        textcolor: $gray-lightest;
+        color: $gray-lightest;
+        border-color: $purple-light;
+    }
+}
+
+a {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+
+.navbar-light {
+   background-image: linear-gradient($purple, $purple-light) !important; 
+   border-bottom: 1px solid $gray-lightest;
+   font-size: 1.1em;
+   padding: 0px 16px;
+
+   ul.navbar-nav.d-none.d-md-flex {
+       .dropdown:hover .dropdown-menu { display: block;  translate: 0px -2px;}
+       .dropdown:hover .dropdown-toggle.nav-link { color: $purple; }
+       .nav-item  {
+           color: $gray-lightest;
+           &:hover, &:focus {
+              background: $gray-lightest !important;
+              color: $purple !important;
+           }
+       }
+       
+      .nav-link {
+          color: $gray-lightest ;
+          &:hover, &:focus {
+              background: $gray-lightest !important;
+          }
+       }
+      
+   }
+   ul.nav.navbar-nav.usernav { 
+         .nav-link {color: $gray-lightest !important; } 
+         .login a {color: $gray-lightest !important; } 
+        .dropdown-menu { translate: 0px 5px; }
+    }
+   .nav.usernav .usermenu .dropdown-toggle {
+     color : $gray-lightest !important;
+   } 
+   .usermenu .login {
+      color: $gray-lightest;
+   }
+   .navbar-nav .nav-link {
+     padding: 12px 8px;
+   }
+}
+
+
+.coursebox .content {
+    display: none;
+}
+
+// WARNING - this is messy: First remove all logos (top navigation bar and home page header card)
+#page-wrapper .logo img { display:none; }
+
+// Then put back the big logo on the home page header card 
+//#page-site-index .logo img { 
+//    display: unset;
+//    background-image: url(https://pan-learning.org/moodle/customfiles/images/PaNelearning.png);
+//    background-repeat: no-repeat;
+//    background-position: left center;
+//    background-size: auto 100%;
+//    width: 700px;
+//}
+
+// Add the compact logo to the navigation bar
+.navbar-brand {
+    background-image: url(https://pan-learning.org/moodle/customfiles/images/PaN-training-small_color.png) !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+    pointer-events: none;
+  @include hover-focus() {
+    background: inherit;
+  }
+}
+// The removal and addition of the logo on all other pages is not strictly necessary however if not done Moodle displays a lower quality version of the logo.
+
+// Edit short title on top navigation bar (the font size affects the brand logo - You cannot simply remove it!)
+.site-name {
+    font-size: 6px;
+    color: transparent;
+}
+
+// Change color of hamburger icon on top navigation bar.
+.btn-light {
+    color: $gray-lightest;
+    background: transparent !important;
+    border: transparent !important;
+}
+
+// Add header with image and change color of buttons on the header. 
+#page-header .card {
+  height: 150px;
+  background-image: url(https://pan-learning.org/moodle/customfiles/images/testwallpaper9.png), linear-gradient(to right, white, $purple-light, $pink-light);
+  background-size: cover, cover;
+  background-position: 100% 50%, 100%;
+  .btn {
+     color: $gray-lightest;
+     background: $purple-light !important;
+     font-size: 1.1em;
+     font-weight: bold;
+     border: transparent !important;
+  }
+  img.userpicture {
+    width: 50px;
+    height: 50px;
+  }
+ .action-menu .dropdown-toggle {
+    text-decoration: none;
+    color : $gray-lightest;
+    padding: 15px 10px;
+    border-radius: 35px;
+    background-color: $purple-light !important;
+ }
+}
+
+#page-site-index  #page-header .card {
+  height: 150px;
+  background-image: url(https://pan-learning.org/moodle/customfiles/images/PaNelearning.png), url(https://pan-learning.org/moodle/customfiles/images/testwallpaper9.png), linear-gradient(to right, white, $purple-light, $pink-light);
+  background-size: auto 90%, cover, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 2% 50%, 100% 50%, 100%;
+  .btn {
+     color: $gray-lightest;
+     background: $purple-light !important;
+     font-size: 1.1em;
+     font-weight: bold;
+     border: transparent !important;
+  }
+  img.userpicture {
+    width: 50px;
+    height: 50px;
+  }
+ .action-menu .dropdown-toggle {
+    text-decoration: none;
+    color : $gray-lightest;
+    padding: 15px 10px;
+    border-radius: 35px;
+    background-color: $purple-light !important;
+ }
+}
+
+// Change title on header card. 
+.page-context-header .page-header-headings h1 {
+  font-size: 2.4em;
+  color: $purple-light;
+  margin-right: .5rem;
+}
+
+// Change breadcrumb navigation on header card.
+// This includes a 'bug fix' for the non-aligning of linked and non-linked breadcrumbs by underlining both and then making it transparent. 
+.breadcrumb {
+   color : $purple;
+   font-size: 1.1em;
+   font-weight: bold;
+   text-decoration: underline transparent;
+   a {
+        text-decoration: underline transparent;
+   }
+}
+
+
+
+// Change login page background colours. 
+#page-login-index {
+ background: $gray-lightest;
+ .card {
+    background: $gray-lighter;
+ }
+  .card-header {
+    background-image: url(https://pan-learning.org/moodle/customfiles/images/PaNelearning_white.png), linear-gradient($purple,  $purple-light);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center center, 100%;
+    background-size: auto 75%, auto auto;
+    height: 230px;
+ }
+}
+
+
+//Stops a weird clipping of buttons on the user profile page
+div#page-navbar {   
+  position: relative;
+  width: 100%;
+}
+
+
+//Change color of background and text on side navigation bar. 
+#nav-drawer {
+  padding: 0px;
+  background-image: linear-gradient( $purple-light, $purple);
+  //background: $purple none repeat scroll 0 0; // area behind side navigation button
+  //box-shadow: inset 0px 0px 6rem 0px $purple-light;
+  border-right: 1px solid $gray-lightest;
+ .list-group ul {
+    padding: 20px 0px 0px 20px;
+ }
+ .list-group-item.active{
+    color: $purple-light !important;
+    background: white !important;
+    border-radius: 25px 0px 0px 25px !important;
+ }
+ .list-group-item {
+   background-color: $purple-light;
+   border: medium none;
+   color: $gray-lightest;
+   //font-size: 1.1em;
+   &:last-child {
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+   }
+   &:first-child {
+     border-top-left-radius: 0;
+     border-top-right-radius: 0;
+   }
+ }
+ 
+ .list-group-item-action {
+   &:focus, &:hover {
+     background-color: $purple;
+     color: $gray-lightest;
+     //font-size: 1.1em;
+     text-decoration: underline;
+   }
+ }
+}
+.navbar-nav {
+  .btn-secondary:hover, .btn-default:hover {
+    background-color: $purple;
+    color: $gray-lightest;
+  }
+}
+
+
+// Change background and colour of all dropdown menus. 
+.dropdown-item {
+    background-color: $gray-lightest !important;
+    color: $purple !important;
+    &:hover { color: $pink !important; }
+    a {
+        color: $purple !important;
+        &:hover {
+            text-decoration: none;
+            color: $pink !important;
+        }
+    }
+}
+.dropdown-menu {
+     background: $gray-lightest !important;
+     .dropdown-divider {
+         display: none;
+     } 
+}   
+
+
+// Remove the Home link in the footer 
+.homelink {display: none;}
+
+
+#page-footer {
+  text-align: center;
+  background-image: linear-gradient($purple-light, $purple);
+  min-height: 0;
+}
+

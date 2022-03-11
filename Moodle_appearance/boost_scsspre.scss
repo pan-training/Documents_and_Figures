@@ -1,0 +1,69 @@
+// Colors
+$purple: #1f214b; 
+$purple-light: #343a84;
+$plum: #8e2651; 
+$pink: #bb284d;
+$pink-light: #ef2b5c;
+$blue-light: #75abec;
+$textcolor: rgba(255,255,255,0.75);
+$bordercolor: #3e3e3e;
+
+
+/**
+ * Boost Default preset inherit START
+ */
+
+// Colors
+$gray-dark:                 #343434 !default; //#373a3c
+$gray:                      #55595c !default;
+$gray-light:                #818a91 !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #f2f2f2 !default;
+
+$brand-primary:             $purple-light !default;
+$brand-success:            #77b300 !default;
+$brand-warning:             #ff8800 !default;
+$brand-danger:              #ff4136 !default;
+$brand-inverse:             $gray-lightest !default;
+
+// Spacing
+$spacer:   1rem !default;
+$spacer-x: $spacer !default;
+$spacer-y: $spacer !default;
+$border-width: 1px !default;
+
+// Body
+$body-bg:    #ffffff !default; // was #f4f4f4
+$body-color: #3a3a3a !default;
+
+// Typography
+$font-family-sans-serif: "Open Sans", "Helvetica Neue", Arial, sans-serif !default;
+$font-size-root: 14px !default;
+
+// Tables
+$table-bg:                      transparent !default;
+$table-bg-accent:               #fafafa !default;
+$table-bg-hover:                lighten($brand-primary, 55%) !default;
+$table-bg-active:               $table-bg-hover !default;
+$table-border-color:            #f4f4f4 !default;
+
+// Dropdowns
+$dropdown-border-color:          transparent;
+
+
+// Cards
+$card-border-radius:       0 !default;
+$card-border-color:        rgba(238, 238, 238, 1) !default;
+
+// Breadcrumbs
+$breadcrumb-bg:                 transparent !default;
+$breadcrumb-padding-y:              0 !default;
+$breadcrumb-padding-x:              0 !default;
+$breadcrumb-item-padding:           .5rem !default;
+$breadcrumb-divider: '|';
+
+
+/**
+ * Boost Default preset inherit - END
+ */
+ 
