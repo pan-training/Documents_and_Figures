@@ -14,7 +14,7 @@ body a{
   margin: 0; 
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; 
   height: 90%;
-  color: #0f2f5f;
+  color: #1f214b;
   font-weight: bold;
   text-decoration: none;
 }
@@ -40,23 +40,23 @@ p  {
 
 .topnav {
   height: 50px;
-  background-image: url(https://pan-learning.org/moodle/customfiles/images/PaNOSC-ribbons.png), linear-gradient(to right, #1f0f34 0%, #0f2f5f 100%);
+  background-image: url(https://pan-learning.org/moodle/customfiles/images/PaN-training-small_color.png), linear-gradient(#1f214b,#343a84); 
   background-position: 84px center, left center;
   background-repeat: no-repeat;
-  background-size: 122px 30px, 100%;
-  overflow: hidden;
+  background-size: 30px, auto;
 }
 
 .topnav a {
-  float: left;
   color: #f7f7f9;
   text-align: center;
-  padding: 10px 16px;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 1.55em;
+  font-size: 1.1em;
   position: relative;
-  left: 208px;
+  left: 125px;
+  font-weight: normal;
+  padding: 15px 8px;
+  display: flex;
+  height: fit-content;
 }
 
 .headercard {
@@ -64,14 +64,10 @@ p  {
   margin: 16px;
   box-sizing: border-box;
   width: calc(100% - 32px);
-  background-image: url(https://pan-learning.org/moodle/customfiles/images/testwallpaper8.png), linear-gradient(to left, #0f2f5f 0%, #f4f4f4 100%);
-  background-size: cover, cover;
-  background-position: 100% 50%, 100%;
-}
-
-.headercard .title {
-  top: 35%;
-  position: relative;
+  background-image: url(https://pan-learning.org/moodle/customfiles/images/PaNelearning.png), url(https://pan-learning.org/moodle/customfiles/images/testwallpaper9.png), linear-gradient(to right,white,#343a84,#ef2b5c);
+  background-size: auto 90%, cover, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 2% 50%, 100% 50%, 100%;
 }
 
 .myDiv {
@@ -81,16 +77,13 @@ p  {
 }
 
 .footer {
-  height: 100px;
+  height: 150px;
   position: fixed;
   overflow: auto;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-image: url(https://pan-learning.org/moodle/customfiles/images/PaNOSC_ExPaNDS_footer2.png), linear-gradient(to right, #1f0f34 0%, #0f2f5f 100%);
-  background-position: 5%, 100%;
-  background-repeat: no-repeat, no-repeat;
-  background-size: auto 90%, auto auto;
+  background-image: linear-gradient(#343a84,#1f214b);
 } 
   
 </style>
@@ -98,20 +91,17 @@ p  {
 <body>
 
 <div class="topnav">
-  <a class="active" href="https://pan-learning.org/">PaN-learning</a>
+  <a class="active" href="https://pan-learning.org/">Return to e-Learning</a>
 </div>
 
 <div class="headercard">
-  <div class="title">
-    <h1>About</h1>
-  </div>
 </div>
 
 <div class="myDiv">
-  <h2>PaN-learning</h2>
-  <p><a href="https://pan-learning.org/">Pan-learning.org</a> and associated pages are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Permissions beyond the scope of this license may be available.</p>
+  <h1>About</h1>
+  <p>The contents of <a href="https://e-learning.pan-training.eu/">e-learning.pan-training.eu</a> and its associated pages are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Permissions beyond the scope of this license may be available.</p>
   
-  <p> The purpose of PaN-learning is to provide open source neutron, photon and muon science training to European scientists and students. 
+  <p> The purpose of PaN-training's e-learning platform is to provide open source neutron, photon and muon science training to European scientists and students. 
   <h2>Funding</h2>
   <p>The current funding for the project is provided by the European Union’s Horizon 2020 research and innovation programme under under grant agreement <a href=" https://www.panosc.eu/" >No. 823852</a>. </p>
   <p>Earlier funding for the project were provided by the European Union’s 7th Framework Programme for research, technological development and demonstration under the <a href="https://www.nmi3.eu/">NMI3-II Grant number 283883</a> and from the European Union’s SINE 2020 research and innovation programme under grant agreement <a href="https://www.sine2020.eu/">No. 654000</a>. </p>

@@ -7,7 +7,16 @@
 body {
   margin: 0; 
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; 
-  height: 100%
+  height: 90%
+}
+
+body a{
+  margin: 0; 
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; 
+  height: 90%;
+  color: #1f214b;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 h1 {
@@ -31,23 +40,23 @@ p  {
 
 .topnav {
   height: 50px;
-  background-image: url(https://pan-learning.org/moodle/customfiles/images/PaNOSC-ribbons.png), linear-gradient(to right, #1f0f34 0%, #0f2f5f 100%);
+  background-image: url(https://pan-learning.org/moodle/customfiles/images/PaN-training-small_color.png), linear-gradient(#1f214b,#343a84); 
   background-position: 84px center, left center;
   background-repeat: no-repeat;
-  background-size: 122px 30px, 100%;
-  overflow: hidden;
+  background-size: 30px, auto;
 }
 
 .topnav a {
-  float: left;
   color: #f7f7f9;
   text-align: center;
-  padding: 10px 16px;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 1.55em;
+  font-size: 1.1em;
   position: relative;
-  left: 208px;
+  left: 125px;
+  font-weight: normal;
+  padding: 15px 8px;
+  display: flex;
+  height: fit-content;
 }
 
 .headercard {
@@ -55,32 +64,26 @@ p  {
   margin: 16px;
   box-sizing: border-box;
   width: calc(100% - 32px);
-  background-image: url(https://pan-learning.org/moodle/customfiles/images/testwallpaper8.png), linear-gradient(to left, #0f2f5f 0%, #f4f4f4 100%);
-  background-size: cover, cover;
-  background-position: 100% 50%, 100%;
-}
-
-.headercard .title {
-  top: 35%;
-  position: relative;
+  background-image: url(https://pan-learning.org/moodle/customfiles/images/PaNelearning.png), url(https://pan-learning.org/moodle/customfiles/images/testwallpaper9.png), linear-gradient(to right,white,#343a84,#ef2b5c);
+  background-size: auto 90%, cover, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 2% 50%, 100% 50%, 100%;
 }
 
 .myDiv {
+  text-align: justify;
   margin: 16px;
   max-width: 1200px;
 }
 
 .footer {
-  height: 100px;
+  height: 150px;
   position: fixed;
   overflow: auto;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-image: url(https://pan-learning.org/moodle/customfiles/images/PaNOSC_ExPaNDS_footer2.png), linear-gradient(to right, #1f0f34 0%, #0f2f5f 100%);
-  background-position: 5%, 100%;
-  background-repeat: no-repeat, no-repeat;
-  background-size: auto 90%, auto auto;
+  background-image: linear-gradient(#343a84,#1f214b);
 } 
   
 </style>
@@ -88,17 +91,15 @@ p  {
 <body>
 
 <div class="topnav">
-  <a class="active" href="https://pan-learning.org/">PaN-learning</a>
+  <a class="active" href="https://pan-learning.org/">Return to e-Learning</a>
 </div>
 
 <div class="headercard">
-  <div class="title">
-    <h1>Title</h1>
-  </div>
 </div>
 
 <div class="myDiv">
-  <h2>Heading</h2>
+  <h1>Heading 1</h1>
+  <h2>Heading 2</h2>
   <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <div class="footer">
